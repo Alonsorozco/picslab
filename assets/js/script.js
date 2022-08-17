@@ -38,7 +38,11 @@ $(this).toggleClass('zoomed');
 $(".overlay").toggleClass('active');
 })
 
+//tooltip
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 
-//preloader
 

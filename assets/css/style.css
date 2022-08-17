@@ -282,13 +282,6 @@ section {
 
 /* slider de 7 */
 
-h3 {
-  text-align: center;
-  margin: 6% auto;
-  font-size: 1.8rem;
-  font-weight: 800;
-  color: #444;
-}
 .slider {
   display: flex;
   height: 350px;
@@ -298,6 +291,7 @@ h3 {
   padding: 16px;
   transform: scroll(calc(var(--i,0)/var(--n)*-100%));
   scroll-behavior: smooth;
+
 }
 .slider::-webkit-scrollbar {
   height: 5px;

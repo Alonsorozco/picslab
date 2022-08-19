@@ -21,8 +21,7 @@ window.addEventListener('scroll', function()  {
     
 
 
-
-   
+//slider img card
 function prev(){
   document.getElementById('slider-container').scrollLeft -= 270;
 }

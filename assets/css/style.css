@@ -73,7 +73,7 @@ margin-bottom: 5%;
     flex: 15%;
   }
 
-/*fotos*/
+/*fotos header*/
 
 #carousel .item-1 { 
   background-image: url('https://picslab.cl/wp-content/uploads/2021/12/fotopubli3.png');
@@ -192,7 +192,7 @@ section {
 
 
 
-
+/* animacion logoo */
 
 .animation-target {
     -webkit-animation: animation 2000ms linear both;

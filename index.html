@@ -26,7 +26,7 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+          <div class="collapse navbar-collapse ml-auto font" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 
@@ -38,15 +38,48 @@
 
               <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  SERVICIOS
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Servicios Foograficos</a>
+                  <a class="dropdown-item" href="#">Produccion Audiovisual</a>
+                </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  AREA E-COMMERCE
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Fotografia publicitaria</a>
+                  <a class="dropdown-item" href="#">Videos publicitarios</a>
+                  <a class="dropdown-item" href="#">Fotografia de productos para E-commerce</a>
+                </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+
+
+              <li class="nav-item active">
+                <a class="nav-link" href="#">ARRIENDO ESTUDIO FOOGRAFICO <span class="sr-only">(current)</span></a>
               </li>
+        
+              <li class="nav-item active">
+                <a class="nav-link" href="#">BLOG <span class="sr-only">(current)</span></a>
+              </li>
+        
+              <li class="nav-item active">
+                <a class="nav-link" href="#">NUESTRO EQUIPO<span class="sr-only">(current)</span></a>
+              </li>
+        
+              <button type="button" class="btn btn-primary">Contactanos</button>
+
+
+
+        
+
             </ul>
           </div>
         </nav>
@@ -80,40 +113,106 @@
         </div>
       </section>
 
-          <!-- card img -->
+                <!-- card img -->
 
-        <div id="slider-container" class="slider">
-          <div class="slide">
-              <img src="https://images.unsplash.com/photo-1574482620811-1aa16ffe3c82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=20" alt="">
+                <div id="slider-container" class="slider">
+                  <div class="slide">
+                      <img src="https://images.unsplash.com/photo-1574482620811-1aa16ffe3c82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=20" alt="">
+                  </div>
+                  <div class="slide">
+                      <img src="https://images.unsplash.com/photo-1574451311232-cb647e9d71f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=20" alt="">
+                  </div>
+                  <div class="slide">
+                      <img src="https://images.unsplash.com/photo-1574449423472-4bc6a3d2473d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=20" alt="">
+                  </div>
+                  <div class="slide">
+                      <img src="https://images.unsplash.com/photo-1574459472673-09bbda49102a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=928&q=20" alt="">
+                  </div>
+                  <div class="slide">
+                      <img src="https://images.unsplash.com/photo-1479981280584-037818c1297d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=20" alt="">
+                  </div>
+                  <div class="slide">
+                      <img src="https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=20" alt="">
+                  </div>
+                  <div class="slide">
+                      <img src="https://images.unsplash.com/photo-1560259324-12a044e67c34?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=20" alt="">
+                  </div>
+                  <div class="slide">
+                      <img src="images.unsplash.com/photo-1532787799187-93655e51d472?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=20" alt="">
+                  </div>
+                  <div onclick="prev()" class="control-prev-btn">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+                  <div onclick="next()" class="control-next-btn">
+                    <i class="fas fa-arrow-right"></i>
+                  </div>
+                </div>
+            <!-- fin -->
+
+      <!--Section destacados card -->
+    <section id="destacados" class="m-card">
+      <div class="container text-white mt-5">
+          <h2 class="text-center mb-5">Destacados</h2>
+          <div class="container-fluid">
+              <hr class="bg-dark">
+              <div class="row m-2">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-3  mb-3 ">
+                      <div class="card card-container ">
+                          <img id="modal" src="" class="card img-card-width" alt="..."
+                              data-toggle="tooltip" data-placement="bottom" title="Fotografia del Lago Nordenskjöld">
+                          <div class="card-body bg-info ">
+                              <h4 class="font-weight-lighter">Torres del Paine</h4>
+                              <p class="card-text text-white">El Parque Nacional Torres del Paine, en la región de la
+                                  Patagonia de Chile, es conocido por sus altas montañas, los témpanos de azul
+                                  brillante que se aferran a los glaciares y las pampas doradas (praderas) que
+                                  albergan fauna poco común, como los guanacos.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-3   mb-3">
+                      <div class="card card-container">
+                          <img src="https://picslab.cl/wp-content/uploads/2022/05/como-hacer-un-guion-de-video-1024x683.jpg" class="card no-gutters img-card-width" alt="..."
+                              data-toggle="tooltip" data-placement="bottom"
+                              title="Fotografia Lagunas Altiplanica (Miscanti y Miñiques).">
+                          <div class="card-body bg-dark">
+                              <h6 class="font-weight-lighter">¿Cómo hacer un guión de video para productos?</h6>
+                              <p class="card-text text-white">
+                              
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-3  mb-3">
+                      <div class="card card-container">
+                          <img src="https://picslab.cl/wp-content/uploads/2022/04/img_0005-1024x683.jpg" class="card img-card-width" alt="..." data-toggle="tooltip"
+                              data-placement="bottom" title="Fotografia Laguna Cejar.">
+                          <div class="card-body bg-info">
+                              <h6 class="font-weight-lighter ">Tipos de encuadre que debes aplicar en tus fotos y vídeos</h6>
+                              <p class="card-text text-white "></p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-3  mb-3">
+                      <div class="card card-container">
+                          <img src="assets/img/card4.jpg" class="card img-card-width" alt="..." data-toggle="tooltip"
+                              data-placement="bottom" title="Fotografia selva de Ancud.">
+                          <div class="card-body bg-dark">
+                              <h6 class="font-weight-lighter">¿Cómo hacer un book de fotos? ¿Cuál es la importancia de contar con uno?</h6>
+                              <p class="card-text text-white"></p>
+                          </div>
+                      </div>
+                      <hr>
+                  </div>
+              </div>
           </div>
-          <div class="slide">
-              <img src="https://images.unsplash.com/photo-1574451311232-cb647e9d71f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=20" alt="">
-          </div>
-          <div class="slide">
-              <img src="https://images.unsplash.com/photo-1574449423472-4bc6a3d2473d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=20" alt="">
-          </div>
-          <div class="slide">
-              <img src="https://images.unsplash.com/photo-1574459472673-09bbda49102a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=928&q=20" alt="">
-          </div>
-          <div class="slide">
-              <img src="https://images.unsplash.com/photo-1479981280584-037818c1297d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=20" alt="">
-          </div>
-          <div class="slide">
-              <img src="https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=20" alt="">
-          </div>
-          <div class="slide">
-              <img src="https://images.unsplash.com/photo-1560259324-12a044e67c34?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=20" alt="">
-          </div>
-          <div class="slide">
-              <img src="images.unsplash.com/photo-1532787799187-93655e51d472?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=20" alt="">
-          </div>
-          <div onclick="prev()" class="control-prev-btn">
-            <i class="fas fa-arrow-left"></i>
-        </div>
-          <div onclick="next()" class="control-next-btn">
-            <i class="fas fa-arrow-right"></i>
-          </div>
-        </div>
+      </div>
+
+  </section>
+  <!-- fin-->
+
+
+      
+
+
 
     <!-- footer -->
     <footer>

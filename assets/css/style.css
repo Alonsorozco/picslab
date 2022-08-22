@@ -353,25 +353,25 @@ section {
   cursor: pointer;
 }
 .slide img.zoomed{
-   width: 500px;
-   height: 600px;
-   position: fixed;
-   left: 25%;
-   top: 0%;
-   z-index: 1000;
-   transform: scale(1) translatey(0) !important; 
- 
+    width: 500px;
+    height: 600px;
+    position: fixed;
+    left: 25%;
+    top: 0%;
+    z-index: 1000;
+    transform: scale(1) translatey(0) !important; 
+
 }
 .overlay{
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   background: rgba(0,0,0,.45);
-   top: 0;
-   display: none;
-}
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.45);
+    top: 0;
+    display: none;
+  }
 .overlay.active{
- display: block;
+  display: block;
 }
 @media only screen and (max-width: 420px) {
   .slider {
@@ -391,6 +391,12 @@ section {
  }
 }
  
+
+
+.font{
+
+  font-size: 0.8rem !important; 
+}
 
 
 

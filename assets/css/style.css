@@ -6,8 +6,13 @@
 
 
 
-.logo-footer ,.icon-footer, .icon-grup{
-  display: inline-block;
+.footer-link{
+
+  text-decoration:none !important; 
+  padding: 0.5rem;
+  display: block;
+
+
 }
   
 /*Inicia cambio de estilo de scroll bar*/
